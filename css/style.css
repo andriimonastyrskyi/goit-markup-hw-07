@@ -1,0 +1,28 @@
+/* -------------header------------- */
+
+/* .active.current {
+  color: var(--accent-text);
+} */
+
+/* ---------------------секція hero ---------------------*/
+
+/* -------------adven---------------- */
+
+/* ------------about------------------ */
+
+/* --------------------team-------------------- */
+
+/* clients */
+
+/* --footer-- */
+btn--footer-field .footer-btn {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  min-width: 200px;
+  padding: 10px 28px;
+}
+
+/* -----------портфоліо-------------------- */
+
+/*-- backdrop-- */

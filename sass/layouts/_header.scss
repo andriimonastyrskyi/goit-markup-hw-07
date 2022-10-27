@@ -1,0 +1,73 @@
+.header-page {
+  border-bottom: 1px solid var(--line-header);
+}
+
+.header-page__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--logo-header);
+}
+
+.logo-web {
+  color: var(--accent-text);
+}
+
+.nav__page {
+  display: flex;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav__link {
+  display: block;
+  padding: 32px 0;
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: inherit;
+  text-decoration: none;
+}
+
+.contact {
+  display: flex;
+  margin-left: auto;
+}
+
+.contact__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contact__link:hover,
+.contact__link:hover {
+  color: var(--accent-text);
+}
+.contact__link,
+.contact__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text);
+}
+.contact__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
