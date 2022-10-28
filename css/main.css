@@ -628,7 +628,6 @@ img {
 .footer {
   background-color: var(--first-background);
 }
-
 .footer__inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -654,11 +653,9 @@ img {
 .address {
   margin-right: 70px;
 }
-
 .address__inner {
   font-style: normal;
 }
-
 .address__list:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -682,9 +679,6 @@ img {
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
-}
-
-.social-list-footer {
   color: var(--footer-color);
 }
 
@@ -704,9 +698,7 @@ img {
   color: var(--footer-color);
   background-color: var(--bgc-social-footer);
 }
-
-.social-link-footer:hover,
-.social-link-footer:focus {
+.social-link-footer:hover, .social-link-footer:focus {
   color: var(--btn-color);
   background-color: var(--accent-text);
 }
@@ -742,6 +734,10 @@ img {
   display: -ms-flexbox;
   display: flex;
 }
+.footer-field__icon-send {
+  margin-left: 10px;
+  fill: currentColor;
+}
 
 .footer-field__input {
   width: 358px;
@@ -755,7 +751,6 @@ img {
   background-color: inherit;
   color: var(--footer-color);
 }
-
 .footer-field__input:-webkit-autofill {
   -webkit-text-fill-color: var(--footer-color);
   -webkit-box-shadow: 0 0 0 30px var(--first-background) inset;
@@ -793,15 +788,9 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-field__icon-send {
-  margin-left: 10px;
-  fill: currentColor;
-}
-
 .header-page {
   border-bottom: 1px solid var(--line-header);
 }
-
 .header-page__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -853,14 +842,12 @@ img {
   display: flex;
   margin-left: auto;
 }
-
+.contact__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
 .contact__item:not(:last-child) {
   margin-right: 50px;
-}
-
-.contact__link:hover,
-.contact__link:hover {
-  color: var(--accent-text);
 }
 
 .contact__link,
@@ -877,10 +864,10 @@ img {
   letter-spacing: 0.02em;
   color: var(--secondary-text);
 }
-
-.contact__icon {
-  margin-right: 10px;
-  fill: currentColor;
+.contact__link:hover, .contact__link:hover,
+.contact__link:hover,
+.contact__link:hover {
+  color: var(--accent-text);
 }
 
 .hero-section {
@@ -896,7 +883,6 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-
 .hero-section__title {
   max-width: 696px;
   margin: 0 auto;
@@ -909,7 +895,6 @@ img {
   text-transform: uppercase;
   color: var(--hero-color);
 }
-
 .hero-section__btn {
   margin: 0 auto;
   padding: 10px 32px;

@@ -1,10 +1,9 @@
 .header-page {
   border-bottom: 1px solid var(--line-header);
-}
-
-.header-page__container {
-  display: flex;
-  align-items: center;
+  &__container {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .header__logo {
@@ -46,16 +45,16 @@
 .contact {
   display: flex;
   margin-left: auto;
+  &__icon {
+    margin-right: 10px;
+    fill: currentColor;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
-.contact__item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.contact__link:hover,
-.contact__link:hover {
-  color: var(--accent-text);
-}
 .contact__link,
 .contact__link {
   display: flex;
@@ -66,8 +65,8 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text);
-}
-.contact__icon {
-  margin-right: 10px;
-  fill: currentColor;
+  &:hover,
+  &:hover {
+    color: var(--accent-text);
+  }
 }
